@@ -6,7 +6,7 @@ public class skcc {
 	{
 		try{
 		java.net.Socket socket = new java.net.Socket("localhost", 8005);
-        socket.getOutputStream().write("xxxxxxxxx".getBytes());
+        socket.getOutputStream().write("xxxxxxxxxff".getBytes());
         socket.getOutputStream().flush();
         socket.getOutputStream().close();
         socket.close();
